@@ -1,0 +1,27 @@
+User-agent: *
+Disallow: /_db_backups
+Disallow: /_private
+Disallow: /_vti_bin
+Disallow: /_vti_cnf
+Disallow: /_vti_log
+Disallow: /_vti_pvt
+Disallow: /_vti_txt
+Disallow: /beta01
+Disallow: /cgi-bin
+Disallow: /go
+Disallow: /images
+Disallow: /inc
+Disallow: /php_uploads
+Disallow: /stats
+
+#Files
+Disallow: /php.ini
+Disallow: /style.css
+Disallow: /_vti_inf.html
+Disallow: /.htaccess
+
+
+
+
+
+

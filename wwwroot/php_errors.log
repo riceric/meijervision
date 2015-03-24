@@ -1,0 +1,7 @@
+[04-Nov-2013 18:31:59] PHP Parse error:  syntax error, unexpected ';' in C:\www\bak.meijervision\public_html\vcmeijer\schedule-eye-exam.php on line 290
+[20-Nov-2013 20:38:39] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\www\bak.meijervision\public_html\vcmeijer\coupons.php on line 46
+[20-Nov-2013 20:38:52] PHP Notice:  Undefined index: couponImageURL in C:\www\bak.meijervision\public_html\vcmeijer\coupons.php on line 46
+[20-Nov-2013 20:38:52] PHP Notice:  Undefined index: couponImageURL in C:\www\bak.meijervision\public_html\vcmeijer\coupons.php on line 46
+[20-Nov-2013 20:48:10] PHP Notice:  Undefined index: couponImgURL in C:\www\bak.meijervision\public_html\vcmeijer\coupons.php on line 46
+[20-Nov-2013 20:48:22] PHP Notice:  Undefined index: couponImgURL in C:\www\bak.meijervision\public_html\vcmeijer\coupons.php on line 46
+[20-Nov-2013 20:48:44] PHP Notice:  Undefined index: couponImgURL in C:\www\bak.meijervision\public_html\vcmeijer\coupons.php on line 46

@@ -1,0 +1,345 @@
+/** TEXT FORMATTING **/
+body{font:13px/1.5 'Helvetica Neue',Arial,'Liberation Sans',sans-serif}pre,code{font-family:'DejaVu Sans Mono',Monaco,Consolas,monospace}hr{border:0 #ccc solid;border-top-width:1px;clear:both;height:0}h1{font-size:25px}h2{font-size:21px}h3{font-size:18px}h4{font-size:16px}h5{font-size:14px}h6{font-size:12px}
+
+body {
+  color: #333;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+a {
+	color: #39c;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	color:#336699;
+	font-weight: normal;
+	padding:20px 0 10px 0;
+	line-height:1.1em;
+}
+
+h2 {
+	color:#555;
+	font-weight:normal;
+	
+}
+h3, h4, h5, h6 {
+  color:#999;
+  padding-top: 0.5em;
+}
+
+p {
+  padding:0px;
+  padding-bottom:1em;
+}
+
+
+/** Meijer Template Customization **/
+body {
+	background-image:url(../images/bg-blueskies-10x300.png);
+	background-repeat:repeat-x;
+	background-color:#fff;
+}
+#topnav_start {
+	display:none;
+}
+#topnav {
+	background-image:url(../images/bg-topnav-10x30.png);
+	background-repeat:repeat-x;
+	height:30px;
+}
+#topnav ul {
+	padding: 2px;
+	margin: 0px 0;
+	list-style: none;
+	float: left;
+	clear: left;
+	height:26px;
+}
+
+#topnav ul li {
+	float: left;
+	display: inline; /*For ignore double margin in IE6*/
+	margin: 0 10px;
+}
+
+#topnav ul li a {
+	text-decoration: none;
+	float:left;
+	color: #369;
+	cursor: pointer;
+	font: 200 14px/22px "Myriad Pro", Arial, Helvetica, sans-serif;
+}
+#topnav ul li a:hover {
+	color: #39c;
+}
+
+#topnav ul li a span {
+	margin: 0 10px 0 -10px;
+	padding: 1px 8px 5px 18px;
+	position: relative; /*To fix IE6 problem (not displaying)*/
+	float:left;
+}
+
+#logo {
+	background-image:url(../images/logo-wide.png);
+	background-repeat:no-repeat;
+	height:75px;
+	width:455px;
+}
+#header {
+}
+
+#mainnav {
+	display:none;
+}
+#mainnav ul {
+	display:none;
+}
+
+#mainnav ul li {
+	float: left;
+	margin-left:6px;
+	display: inline; /*For ignore double margin in IE6*/
+}
+
+#mainnav ul li a {
+	display:none;
+}
+#mainnav ul li a:hover {
+	color: #9cfdff;
+}
+
+#mainnav ul li a span {
+	position: relative; /*To fix IE6 problem (not displaying)*/
+	float:left;
+}
+#frontmain, #main, #mapc {
+	background-color:#fff;
+	min-height:300px;
+	padding:0 30px 20px 30px;
+}
+#frontmain {
+	padding:0;
+}
+#aboutus_sidecol {
+	background-color:#cde;
+	padding:0 20px 20px 20px;
+}
+.page_half, .page_quarter {
+	padding:0 4px;
+}
+
+#main .alignleft { float:left; margin:0 10px 0 0; }
+#main .alignright { float:right; margin:0 0 0 10px; }
+label.lblleft { display:block; float:left; width:42px; line-height:25px; }
+input.cboxleft { float:left; margin:3px; }
+label.lblright { float:left; display:block; line-height:25px; }
+label.error { background-color:#fee; color:#a00; display:inline-block; padding:4px;}
+input.error, textarea.error { background-color:#fee; }
+div.error { background-color:#fee; color:#a00; padding:10px; }
+ol, ul {
+	margin-left:1.5em;
+	margin-bottom:1em;
+}
+
+#main ul, #main ol {
+	margin-left:2em;
+	margin-bottom:1em;
+}
+
+#mapc {
+	width:920px;
+	height:600px;
+	padding:0 20px;
+}
+.locationAddress, .locationAddressHover {
+	font-size:12px;
+	padding:10px;
+	background:#f9f9fc;
+	border-top:solid 1px #ccc;
+}
+.locationAddressHover {
+	background:#cde;
+}
+
+#footer {
+	display:none;
+}
+.footerfeature_l, .footerfeature_r, #ff_yourstyle, #ff_locator {
+	background-image:url(../images/bg-footer-section2.png);	
+	background-repeat:no-repeat;
+	background-position:left top;
+	height:185px;
+}
+
+.footerfeature_r {
+	padding-top:1px;
+	margin-left:10px;
+	background-position:100% -185px;
+}
+#ff_yourstyle  {
+	margin-left:10px;
+	background-position:100% -555px;
+}
+#ff_yourstyle p {
+	width:240px;
+}
+#ff_locator  {
+	margin-left:10px;
+	background-position:100% -370px;
+}
+h2#ffh2_yourstyle, h2#ffh2_newsletter, h2#ffh2_locator {
+	font-size:11px;
+	background-image:url(../images/bg-footer-titles.png);
+	background-repeat:no-repeat;
+	clear:both;
+	line-height:36px;
+	margin:0px;
+	margin-top:15px;
+	text-indent:-9999px;
+	width:220px;
+}
+h2#ffh2_yourstyle{
+	background-position:left top;
+}
+h2#ffh2_newsletter {
+	background-position:left -40px;
+}
+h2#ffh2_locator {
+	background-position:left -80px;
+}
+#footer ul, #footer ol {
+	margin-left:-1em;
+}
+#footer li {
+	list-style-type:none;
+	margin-left:1em;
+	line-height:1.5em;
+}
+#footer li a {
+	color:#6d6b61;
+}
+#footer li a:visited {
+	color:#6d6b61;
+}
+ul#ul_location {
+	list-style-type:disc;
+	padding-top:0.5em;
+	margin-left:1em;
+}
+ul#ul_location li {
+	list-style-type:disc;
+	color:#6d6b61;
+	font-size:11px;
+}
+
+#footerlinks {
+	margin-top:1em;
+	font-size:11px;
+}
+#footerlinks  h3 {
+	color:#6d6b61;
+	font-size:13px;
+	margin:0;
+}
+#copyright { 
+	font-size:11px;
+	text-align:center;
+	color:#6d6b61;
+	margin-top:1em;
+}
+/** Form Elements **/
+a.button {
+	background-color:transparent;
+    background-image:url('../images/bg-buttons-blue.png');
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-position:right -40px;
+    color: #fff;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 32px;
+	margin-left:10px;
+    margin-right: 6px;
+    padding-right: 18px;
+    text-decoration: none;
+}
+
+a.button span {
+ 	background-color:transparent;
+   background-image:url('../images/bg-buttons-blue.png');
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-position:left top;
+    display: block;
+    line-height: 20px;
+    padding: 5px 0 5px 16px;
+	margin-left:-10px;
+}
+
+a.button:active {
+    background-position:right -120px;
+    color: #fff;
+    outline: none;
+}
+
+a.button:active span {
+    background-position:left -80px;
+    padding: 6px 0 4px 16px;
+}
+input, select {
+	height:1.5em;
+	margin:2px 0;
+}
+input#zipcode {
+	width:100px;
+}
+input.txt_inputhelp{
+	color:#999;
+}
+
+/* SLIDER styles */
+#slider ul, #slider li {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+/* numeric controls */	
+
+ol#controls{
+	float:right;
+	margin:8px 0;
+	padding:0;
+	height:14px;	
+	}
+ol#controls li{
+	font-size:9px;
+	margin:0 5px 0 0; 
+	padding:0;
+	float:left;
+	list-style:none;
+	height:14px;
+	line-height:14px;
+	}
+ol#controls li a{
+	float:left;
+	height:14px;
+	line-height:14px;
+	border:1px solid #ccc;
+	background:#DAF3F8;
+	color:#555;
+	padding:0 5px;
+	text-decoration:none;
+	}
+ol#controls li.current a{
+	background:#369;
+	color:#fff;
+	}
+ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}

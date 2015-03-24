@@ -1,0 +1,4 @@
+[17-Oct-2012 22:35:54] PHP Warning:  DOMElement::setAttribute() [<a href='domelement.setattribute'>domelement.setattribute</a>]: string is not in UTF-8 in C:\www\bak.meijervision\public_html\vcmeijer\data\phpsqlsearch_genxml.php on line 47
+[17-Oct-2012 22:35:54] PHP Warning:  DOMElement::setAttribute() [<a href='domelement.setattribute'>domelement.setattribute</a>]: string is not in UTF-8 in C:\www\bak.meijervision\public_html\vcmeijer\data\phpsqlsearch_genxml.php on line 47
+[17-Oct-2012 22:35:54] PHP Warning:  DOMDocument::saveXML() [<a href='domdocument.savexml'>domdocument.savexml</a>]: output conversion failed due to conv error, bytes 0x96 0x20 0x36 0x20 in C:\www\bak.meijervision\public_html\vcmeijer\data\phpsqlsearch_genxml.php on line 53
+[28-Aug-2013 22:28:53] PHP Notice:  Undefined index: state in C:\www\bak.meijervision\public_html\vcmeijer\data\locations-list-JSON.php on line 43
